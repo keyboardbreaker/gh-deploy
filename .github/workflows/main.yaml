@@ -25,5 +25,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist/gh-deploy/browser
+          base_branch: main
           branch: prod  
           token: ${{ secrets.GH_TOKEN }}
